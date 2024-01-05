@@ -66,7 +66,7 @@ JPA 동작을 위해 Entity, Entity Manager Factory, Entity Manager, Persistence
 <br>
 <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ▪️ 예시로,<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @Table(name = "") 을 이용해서 "" 안에 DB에 저장된 table명을 작성해준다.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @Table(name = "") 을 이용해서 name="" 안에 DB에 저장 할 table명을 작성해준다.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @Id 를 이용하면 해당 변수가 해당 테이블의 기본키가 된다.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @Column(name="") 을 이용하면 @Table과 같이 name="" 안에 DB에 저장 할 column명을 써준다.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @GeneratedValue( strategy = GenerationType.AUTO) 를 이용하면 SQL문의 AUTO_INCREMENT와 같이 1,2,3,4,5,6,7 처럼 자동으로 숫자가 <br>
